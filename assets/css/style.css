@@ -57,34 +57,33 @@ a {
   line-height: 1.67;
 }
 
-.control{
+.control {
   display: flex;
   column-gap: 18px;
   align-items: center;
 }
 
-.control__btn{
+.control__btn {
   width: 36px;
   height: 36px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border:1px solid #575f66;
+  border: 1px solid #575f66;
   background: #fff;
   cursor: pointer;
   transition: 0.25s;
-
 }
 
-.control__btn:hover{
+.control__btn:hover {
   background: #2e80ce;
   border-color: #2e80ce;
   color: #fff;
   transition: 0.25s;
 }
 
-.control-icon--next{
+.control-icon--next {
   rotate: 180deg;
 }
 
@@ -444,7 +443,7 @@ a {
   line-height: 1.75;
 }
 
-.team-item__desc{
+.team-item__desc {
   color: #575f66;
   text-align: center;
   font-size: 1.4rem;
@@ -452,14 +451,59 @@ a {
   line-height: 1.86;
 }
 
-.team-item:hover .team-item__thumb{
+.team-item:hover .team-item__thumb {
   transform: scale(1.1);
 }
 
-.team__control{
+.team__control {
   margin-top: 38px;
   justify-content: center;
 }
 
+/* install mobile====================== */
+.install__inner {
+  margin: 180px 0 85px;
+  position: relative;
+  height: 427px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background: #2e80ce;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+.install__img {
+  position: absolute;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  bottom: 0;
+}
+
+.install__content{
+  min-width: 586px;
+}
+
+.install__heading{
+  color: #fff;
+  max-width: 489px;
+}
+
+.install__desc{
+  margin-top: 18px;
+  max-width: 586px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+}
+
+.install__row{
+  margin-top: 38px;
+  display: flex;
+  column-gap: 28px;
+  align-items: center;
+}
 
 
