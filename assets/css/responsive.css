@@ -91,6 +91,45 @@
         background-color: #00ffff37;
     }
 
+    .hero{
+        flex-direction: column;
+        row-gap:50px ;
+    }
+
+    .hero__content{
+        order: 2;
+        width: 80%;
+        text-align: center;
+        margin: 22px auto;
+    }
+
+    .hero__media{
+        order:1;
+    }
+
+    .hero__row{
+        justify-content: center;
+    }
+
+    .service__row{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .service__img{
+        width: 100%;
+    }
+
+    .service-item{
+        width: 90%;
+        text-align: start;
+    }
+
+    .service__list{
+        text-align: center;
+    }
+
+
 }
 
 /* tablet */
@@ -102,4 +141,4 @@
     
 }
 
-.hero, .footer,main{display: none;}
+.footer{display: none;}
