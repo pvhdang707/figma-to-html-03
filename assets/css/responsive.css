@@ -1,0 +1,58 @@
+/* pc */
+@media (min-width: 992px){
+
+}
+
+/* tablet & mobile */
+@media (max-width:991.98px ){
+    /* an navbar */
+    .navbar{
+        display: none;
+    }
+
+    /* chuyen logo vao giua */
+    .header__top{
+        position: relative;
+
+    }
+    .header__logo{
+        position: absolute;
+        left:50%;
+        translate: -50% -50%;
+    }
+
+    .menu-header__icon{
+        position: absolute;
+        top:38px;
+        left:26px;
+        width: 24px;
+    }
+ 
+    .menu-overlay{
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.3);
+        inset:0;
+        z-index: 1;
+        /* binh thuong an overlay di */
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+    }
+
+    .menu-checkbox:checked ~.menu-overlay{
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+
+/* tablet */
+@media (min-width: 768px ) and (max-width: 991.98px) {
+    
+}
+/* mobile */
+@media (max-width:767.98px){
+    
+}
+
+.hero, .footer,main{display: none;}
